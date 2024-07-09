@@ -19,8 +19,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    int count=0,count2=0;
-
+    int count=0,count2=0,a=0;
 private slots:
     void timerUpdate(void);
     void timerUpdate2(void);
